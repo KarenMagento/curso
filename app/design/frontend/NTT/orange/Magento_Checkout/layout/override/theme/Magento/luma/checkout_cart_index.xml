@@ -8,9 +8,6 @@
 <page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
-        <referenceContainer name="checkout.cart.container">
-            <container remove="true" name="cart.discount" label="Cart Discount Container" htmlTag="div" htmlClass="cart-discount" after="-" />
-        </referenceContainer>
         <referenceBlock name="checkout.cart.crosssell" remove="true"/>
     </body>
 </page>
